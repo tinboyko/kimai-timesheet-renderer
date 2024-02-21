@@ -1,0 +1,29 @@
+{
+    "name": "codality/codality-plugin",
+    "description": "Codality mods",
+    "homepage": "https://codalityco",
+    "type": "kimai-plugin",
+    "version": "2.1.0",
+    "keywords": [
+        "kimai",
+        "kimai-plugin"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Valentin Boyko",
+            "homepage": "https://codality.co"
+        }
+    ],
+    "extra": {
+        "kimai": {
+            "require": 20100,
+            "name": "Codality Mods"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "KimaiPlugin\\CodalityBundle\\": ""
+        }
+    }
+}

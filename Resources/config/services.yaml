@@ -1,0 +1,12 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    KimaiPlugin\CodalityBundle\:
+        resource: '../../*'
+        exclude: '../../{Resources}'
+
+#    KimaiPlugin\CodalityBundle\Export\Timesheet:
+#        parent: App\Export\Timesheet
